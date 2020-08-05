@@ -68,65 +68,6 @@ public class Metods {
         return by;
     }
     
-    
-    /*public int[] divilibleBySeven() {
-        int bufferVar = 0;
-        int sizeNewArr = 0;
-        int number = 0;
-        for(int count = 0; count < arr.length; count++) {
-            if(arr[count] % 7 == 0) {
-                sizeNewArr++;
-            }
-        }
-        int [] bySeven = new int[sizeNewArr];
-        for(int count = 0; count < arr.length; count++) {
-            if(arr[count] % 7 == 0) {
-                bySeven[number] = arr[count];
-                number++;
-            }
-        }
-        for(int count = 0; count < bySeven.length; count++) {
-            for(int i = 0; i < bySeven.length; i++) {
-                if(bySeven[count] < bySeven[i]) {
-                    bufferVar = bySeven[i];
-                    bySeven[i] = bySeven[count];
-                    bySeven[count] = bufferVar;
-                }
-            }
-        }
-        
-        return bySeven;
-    }
-    
-    public int[] divilibleByTwentyOne() {
-        int bufferVar = 0;
-        int sizeNewArr = 0;
-        int number = 0;
-        for(int count = 0; count < arr.length; count++) {
-            if(arr[count] % 21 == 0) {
-                sizeNewArr++;
-            }
-        }
-        int [] byTwentyOne = new int[sizeNewArr];
-        for(int count = 0; count < arr.length; count++) {
-            if(arr[count] % 21 == 0) {
-                byTwentyOne[number] = arr[count];
-                number++;
-            }
-        }
-        for(int count = 0; count < byTwentyOne.length; count++) {
-            for(int i = 0; i < byTwentyOne.length; i++) {
-                if(byTwentyOne[count] < byTwentyOne[i]) {
-                    bufferVar = byTwentyOne[i];
-                    byTwentyOne[i] = byTwentyOne[count];
-                    byTwentyOne[count] = bufferVar;
-                }
-            }
-        }
-        
-        return byTwentyOne;
-    } */
-    
     int anymore[];
     public int[] more() {
         int bufferVar = 0;
@@ -156,52 +97,6 @@ public class Metods {
         
         return anymore;
     }
-    
-   /* public void printArrays() {
-        for(int i = 0; i < arr.length; i++) {
-            if(i + 1 == arr.length) {
-                System.out.println(arr[i]);
-            } else {
-                System.out.print(arr[i] + " ");
-            }
-        }
-        
-        if(divilibleBy(3).length == 0) {
-                System.out.println("Нет элементов делимых на 3");
-        } else {
-            for(int i = 0; i < divilibleBy(3).length; i++) {
-                if(i + 1 == divilibleBy(3).length) {
-                    System.out.println(divilibleBy(3)[i]);
-                } else {
-                    System.out.print(divilibleBy(3)[i] + " ");
-                }
-            }
-        }
-        if(divilibleBy(7).length == 0) {
-                System.out.println("Нет элементов делимых на 7");
-        } else {
-            for(int i = 0; i < divilibleBy(7).length; i++) {
-                if(i + 1 == divilibleBy(7).length) {
-                    System.out.println(divilibleBy(7)[i]);
-                } else {
-                    System.out.print(divilibleBy(7)[i] + " ");
-                }
-            }
-        } 
-            
-        if(divilibleBy(21).length == 0) {
-                System.out.println("Нет элементов делимых на 21");
-        } else {
-            for(int i = 0; i < divilibleBy(21).length; i++) {
-                if(i + 1 == divilibleBy(21).length) {
-                    System.out.println(divilibleBy(21)[i]);
-                } else {
-                    System.out.print(divilibleBy(21)[i] + " ");
-                }
-            }
-        }
-    }*/
-    
     
     public void printBy(int x[], String y) {
         if(x.length == 0) {
